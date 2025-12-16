@@ -8,14 +8,6 @@
 
 This guide documents my setup for running Emacs 30.1 on Windows with full C# development support, including LSP, debugging (through DAPE), and all the ancillary tools you'd expect from a modern development environment. The setup is designed to be portable and self-contained, which is particularly useful in air-gapped or restricted environments.
 
-* TODO protocol buffers TODO
-
-* TODO vc-dir using git TODO
-
-* TODO ripgrep for fast windows searching TODO
-
-* TODO Visual Studio Installer creation
-
 * Prerequisites
 
 Before we begin, you'll need:
@@ -475,6 +467,14 @@ echo %ACTION% completed at %time%
 
 to launch applications of course, if it is a pure DOTNET project you would use =dotnet run=
 
+* TODO protocol buffers TODO
+
+* TODO vc-dir using git TODO
+
+* TODO ripgrep for fast windows searching TODO
+
+* TODO Visual Studio Installer creation TODO
+
 * Troubleshooting
 
 ** "Cannot find csharp-ls" or Eglot won't start
@@ -501,7 +501,7 @@ Try adding to your configuration:
 3. Look at =*dape-repl*= for error messages
 4. Verify netcoredbg runs: =netcoredbg.exe --version=
 
-* Final Thoughts
+* Conclusion
 
 This setup has served me well for my windows .NET 9.0 projects and various other C# work. The key benefits:
 
